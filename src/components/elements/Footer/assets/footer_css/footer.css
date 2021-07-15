@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Poppins-Semibold;
+    src: url(../../../../../assets/fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../../../../../assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+.footer-content
+{
+    height: 252px;
+    background-color:#F6BD2F ;
+}
+
+
+
+.footer-application-icon
+{
+    border-radius: 50px;
+    height: 49px;
+}
+
+
+.footer-tittle
+{
+    font-size: 18px;
+    font-family: Poppins-Semibold;
+}
+
+.footer-text 
+{
+    font-size: 13px;
+    font-family: Poppins-Regular;
+}
+
+.footer-logo
+{
+    font-size: 24px;
+    font-family: Poppins-Semibold;
+}

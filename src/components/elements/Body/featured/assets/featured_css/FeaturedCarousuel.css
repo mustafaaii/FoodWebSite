@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../../../../../../assets/fonts/poppins/Poppins-Medium.ttf);
+}
+
+
+    .featured-card-content
+    {
+        height: 283px;
+    }
+
+    .featured-card
+    {
+        height:200px;
+        width:200px;
+        background-color: white;
+        border-radius: 20px;
+        overflow-wrap: normal;
+        object-fit: cover;
+    }
+
+    .featured-img
+    {
+        border-top-left-radius:  20px;
+        border-top-right-radius:  20px;
+        
+    }
+
+
+    .feadtured-icon-container
+    {
+        padding: 0;
+    }
+
+    .featured-title
+    {
+        font-size: 12px;
+        font-family: Poppins-Medium;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .featured-stars
+    {
+        padding-top: 15px;
+        padding-right: 8px;
+    }
+    .featured-stars-img
+    {
+        height: 6px;
+        float: right;
+    }
+
+
+
+
+
+    .featured-price-img
+    {
+        height: 10px;
+        padding-left: 10px;
+        float: left;
+        position: absolute;
+    }
+    .featured-price-tittle
+    {
+        font-family: Poppins-Medium;
+        font-size: 7px;
+        float: left;
+        position: absolute;
+        padding-left: 20px;
+        color: #9b9b9b;
+    }
+    .featured-price-content
+    {
+        margin: auto;
+    }
+
+
+
+
+
+    .featured-time-img
+    {
+        height: 10px;
+        float: left;
+        position: absolute;
+    }
+    .featured-time-tittle
+    {
+        font-family: Poppins-Medium;
+        font-size: 7px;
+        float: left;
+        position: absolute;
+        padding-left: 10px;
+        color: #9b9b9b;
+    }
+    .featured-time-content
+    {
+        margin: auto;
+    }
+  
+
+
+
+    .featured-location-img
+    {
+        height: 10px;
+        float: left;
+        position: absolute;
+    }
+    .featured-location-tittle
+    {
+        font-family: Poppins-Medium;
+        font-size: 7px;
+        float: left;
+        position: absolute;
+        padding-left: 10px;
+        color: #9b9b9b;
+    }
+    .featured-location-content
+    {
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+.featured-carousel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.featured-carousel-wrapper {
+    display: flex;
+    width: 108%;
+    position: relative;
+    
+}
+
+.featured-carousel-content-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.featured-carousel-content {
+    display: flex;
+    transition: all 250ms linear;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+    
+    
+}
+
+/* hide scrollbar in webkit browser */
+.featured-carousel-content::-webkit-scrollbar, .featured-carousel-content::-webkit-scrollbar
+ {
+    display: none;
+}
+
+.featured-carousel-content > * {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.featured-carousel-content.show-2 > * {
+    width: 60%;
+}
+
+.featured-carousel-content.show-3 > * {
+    width: calc(100% / 3);
+}
+
+.featured-carousel-content.show-4 > * {
+    width: calc(100% / 4);
+}
+
+
+
+
+.featured-left-arrow, 
+.featured-right-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #ddd;
+
+}
+
+.featured-left-arrow {
+    content: "<";
+    left: -10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F6BD2F;
+}
+
+.featured-right-arrow {
+    right: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #F6BD2F;
+}
+
+@media (hover: none) and (pointer: coarse) 
+{
+    .featured-left-arrow, .featured-right-arrow
+     {
+        display: none;
+    }
+}

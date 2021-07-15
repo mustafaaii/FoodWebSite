@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../../../../../../assets/fonts/poppins/Poppins-Medium.ttf);
+}
+
+
+    .restaurants-card-content
+    {
+        height: 283px;
+    }
+
+    .restaurants-card
+    {
+        height:200px;
+        width:200px;
+        background-color: white;
+        border-radius: 20px;
+        overflow-wrap: normal;
+        object-fit: cover;
+    }
+
+    .restaurants-img
+    {
+        border-top-left-radius:  20px;
+        border-top-right-radius:  20px;
+        
+    }
+
+
+    .restaurants-icon-container
+    {
+        padding: 0;
+    }
+
+    .restaurants-title
+    {
+        font-size: 12px;
+        font-family: Poppins-Medium;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .restaurants-stars
+    {
+        padding-top: 15px;
+        padding-right: 8px;
+    }
+    .restaurants-stars-img
+    {
+        height: 6px;
+        float: right;
+    }
+
+
+
+
+
+    .restaurants-price-img
+    {
+        height: 10px;
+        padding-left: 10px;
+        float: left;
+        position: absolute;
+    }
+    .restaurants-price-tittle
+    {
+        font-family: Poppins-Medium;
+        font-size: 7px;
+        float: left;
+        position: absolute;
+        padding-left: 20px;
+        color: #9b9b9b;
+    }
+    .restaurants-price-content
+    {
+        margin: auto;
+    }
+
+
+
+    .restaurants-time-img
+    {
+        height: 10px;
+        float: left;
+        position: absolute;
+    }
+    .restaurants-time-tittle
+    {
+        font-family: Poppins-Medium;
+        font-size: 7px;
+        float: left;
+        position: absolute;
+        padding-left: 10px;
+        color: #9b9b9b;
+    }
+    .restaurants-time-content
+    {
+        margin: auto;
+    }
+  
+
+
+
+    .restaurants-location-img
+    {
+        height: 10px;
+        float: left;
+        position: absolute;
+    }
+    .restaurants-location-tittle
+    {
+        font-family: Poppins-Medium;
+        font-size: 7px;
+        float: left;
+        position: absolute;
+        padding-left: 10px;
+        color: #9b9b9b;
+    }
+    .restaurants-location-content
+    {
+        margin: auto;
+    }
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+.WebHeader
+{
+    height: 170px;
+    background-image: url(../img/header/header.svg);
+
+}
+
+.HeaderLink
+{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.FirstHeaderContent
+{
+    float:right;
+    margin: auto;
+}
+
+
+
+
+
